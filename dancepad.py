@@ -45,7 +45,7 @@ import pyautogui
 #     pyautogui.keyUp('j')
 #     print(val)
 
-# OR
+# OR less code redundancy
 arduino = serial.Serial(port='COM15', baudrate=9600)
 val=arduino.read().decode().strip()
  
